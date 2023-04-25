@@ -1,0 +1,13 @@
+* {
+    
+}
+.consolacompleta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28.774em;
+    height: 47.334em;
+    background-color: blue;
+    margin-top: 2em;
+    margin-left: 43em;
+}

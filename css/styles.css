@@ -1,5 +1,12 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
 * {
-    
+    box-sizing: border-box;
 }
 .consolacompleta {
     display: flex;
@@ -9,5 +16,21 @@
     height: 47.334em;
     background-color: blue;
     margin-top: 2em;
-    margin-left: 43em;
-}
+    border-top-left-radius: 2.5%;
+    border-top-right-radius: 2.5%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 2.5%;
+    }
+
+    .pantalla1 {
+        background-color: darkslategrey;
+        display: flex;
+        align-items: center;
+        width: 25em;
+        height: 22em;
+        margin-top: -21em;
+        border-top-left-radius: 2.5%;
+        border-top-right-radius: 2.5%;
+        border-bottom-right-radius: 15%;
+        border-bottom-left-radius: 2.5%;
+    }

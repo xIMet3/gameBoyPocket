@@ -26,6 +26,7 @@ body {
         background-color: #3f4544;
         display: flex;
         align-items: center;
+        margin-left: -9.5em;
         width: 25em;
         height: 22em;
         margin-top: -21em;
@@ -63,6 +64,44 @@ body {
     .gameboy {
         display: flex;
         margin-top: 19.5em;
-        
+    }
+
+    .off {
+        display: flex;
+        color: ;
+        margin-top: -45em;
+        margin-left: -24.5em;
+        color: #0e33a1;
+    }
+
+    .triangulo1 {
+        display: flex;
+        margin-top: -45.25em;
+        margin-left: 0.3em;
+        color: #0e33a1;
+    }
+
+    .triangulo2 {
+        display: flex;
+        margin-top: -45.25em;
+        margin-left: 1em;
+        color: #0e33a1;
+    }
+
+    .on {
+        display: flex;
+        margin-top: -45.1em;
+        margin-left: 0.3em;
+        color: #0e33a1;
+    }
+
+    .nintendolog {
+        display: flex;
+        border: 0.16em solid darkblue;
+        width: 8em;
+        justify-content: center;
+        margin-left: 1.5em;
+        margin-top: 5.5em;
+        border-radius: 25%;
     }
 

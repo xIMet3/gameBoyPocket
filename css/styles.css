@@ -9,11 +9,9 @@ body {
     box-sizing: border-box;
 }
 .consolacompleta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     width: 28.774em;
-    height: 47.334em;
+    height: 48em;
     background-color: #0045b1;
     margin-top: 2em;
     border-top-left-radius: 2.5%;
@@ -22,14 +20,22 @@ body {
     border-bottom-left-radius: 2.5%;
     }
 
+    .partealta {
+        background-color: red;
+        width: 28.774em;
+        height: 28em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .pantalla1 {
         background-color: #3f4544;
+        margin-top: -1.5em;
         display: flex;
         align-items: center;
         margin-left: -9.5em;
         width: 25em;
         height: 22em;
-        margin-top: -21em;
         border-top-left-radius: 2.5%;
         border-top-right-radius: 2.5%;
         border-bottom-right-radius: 15%;
@@ -49,7 +55,7 @@ body {
 
     .nintendor {
         display: flex;
-        margin-left: 4.1em;
+        margin-left: 4em;
         margin-top: -0.8em;
     }
 
@@ -90,7 +96,7 @@ body {
 
     .on {
         display: flex;
-        margin-top: -45.1em;
+        margin-top: -25em;
         margin-left: 0.3em;
         color: #0e33a1;
     }
@@ -101,7 +107,8 @@ body {
         width: 8em;
         justify-content: center;
         margin-left: 1.5em;
-        margin-top: 5.5em;
-        border-radius: 50% 50% 50% 50%;
+        margin-top: 25em;
+        border-radius: 2em;
     }
+    
 

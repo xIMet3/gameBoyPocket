@@ -24,6 +24,8 @@ body {
   box-sizing: border-box;
   position: absolute;
   z-index: 2;
+  box-shadow: 20px 15px 10px 3px rgba(0,0,0,0.64);
+  
 }
 
 .bordetop {
@@ -414,7 +416,8 @@ body {
   margin-top: 2em;
   width: 1em;
   height: 6.5em;
-  transform: skewY(-40deg);
+  transform: rotate(173deg) scale(0.9) skew(-28deg) translate(-50px,3px);
+
 }
 
 .speaker-grid {

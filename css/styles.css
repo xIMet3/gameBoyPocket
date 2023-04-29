@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+.fondo {
+    position: relative;
+    z-index: 1;
+}
+
 .consolacompleta {
     width: 28.774em;
     height: 48em;
@@ -17,6 +22,8 @@ body {
     border-bottom-right-radius: 15%;
     border-bottom-left-radius: 2.5%;
     box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
     }
 
 .bordetop {

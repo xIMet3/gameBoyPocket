@@ -12,6 +12,20 @@ body {
   z-index: 1;
 }
 
+.fondogengar {
+  position: absolute;
+  z-index: 2;
+  margin-left: -70em;
+  margin-top: -2em;
+}
+
+.fondogengar2 {
+  position: absolute;
+  z-index: 2;
+  margin-left: 70em;
+  margin-top: -2em;
+}
+
 .consolacompleta {
   width: 28.774em;
   height: 48em;
@@ -23,7 +37,7 @@ body {
   border-bottom-left-radius: 2.5%;
   box-sizing: border-box;
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   box-shadow: 20px 15px 10px 3px rgba(0,0,0,0.64);
   
 }
@@ -106,7 +120,7 @@ body {
 .pantallamargenizq {
   background-color: #404744;
   height: 21.35em;
-  width: 3.1em;
+  width: 3.2em;
   margin-left: 1.75em;
   border-top-left-radius: 0.7em;
   border-bottom-left-radius: 0.7em;
@@ -121,8 +135,8 @@ body {
 .pantallamargendcha {
   background-color: #404744;
   height: 21.35em;
-  width: 3.2em;
-  border-top-right-radius: 0.7em;
+  width: 3em;
+  border-top-right-radius: 1.5em;
   border-bottom-right-radius: 2.3em;
   margin-left: -1em;
 }
@@ -417,7 +431,6 @@ body {
   width: 1em;
   height: 6.5em;
   transform: rotate(173deg) scale(0.9) skew(-28deg) translate(-50px,3px);
-
 }
 
 .speaker-grid {

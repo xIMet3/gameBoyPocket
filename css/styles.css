@@ -178,7 +178,7 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         margin-left: 2.3em;
-        margin-top: ;
+        margin-top: 2em;
     }
 
 .cross1 {
@@ -295,6 +295,7 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-right: 16px;
+    margin-top: 0.8em;
 }
 
 .button-b {
@@ -332,3 +333,72 @@ body {
 .button:active {
     background: linear-gradient(to right, rgb(91, 91, 91), rgb(52, 52, 52));
 }
+
+.partebaja {
+    grid-column: 1 / 5;
+    display: flex;
+    justify-content: center
+}
+
+.select-start {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2.5em;
+    margin-top: 2em;
+}
+
+.bt-st-top {
+    width: 10em;
+    display: flex;
+    margin: 9px;
+    gap: 15px;
+    display: flex;
+    
+}
+
+.bt-st {
+    cursor: pointer;
+    background: linear-gradient(to bottom, grey, rgb(55, 55, 55));
+    width: 3em;
+    height: 0.8em;
+    border-radius: 3em/2em;
+    border: outset rgb(180, 108, 31);
+    display: flex;
+    align-items: center;
+}
+
+.bt-st-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.st-text {
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(236, 132, 27);
+    text-shadow: 1px -1px 1px rgb(243, 193, 102);
+    margin-right: 2px;
+}
+
+.bt-st:active {
+    background: linear-gradient(to bottom, rgb(87, 87, 87), rgb(54, 54, 54));
+}
+
+.button-txt1 {
+    color: crimson;
+    margin-top: 4.3em;
+    font-size: 1.1em;
+    margin-left: -0.7em;
+    font-weight: bold;
+}
+
+.button-txt2 {
+    color: crimson;
+    margin-top: 4.23em;
+    font-size:1.11em;
+    font-weight: bold;
+}
+
+

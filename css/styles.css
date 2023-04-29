@@ -21,7 +21,7 @@ body {
 
 .bordetop {
     display: flex;
-    background-color: aqua;
+    background-color:
     height: 5.5%;
     width: 100%;
 }
@@ -32,14 +32,14 @@ body {
 }
 
 .partearriba {
-    background-color: red;
+    background-color:
     height: 44.5%;
     width: 100%;
 
 }
 
 .partemedia {
-    background-color: yellow;
+    background-color: ;
     height: 30%;
     width: 100%;
     display: flex;
@@ -47,32 +47,32 @@ body {
 }
 
 .partebaja {
-    background-color: blueviolet;
+    background-color: 
     height: 20%;
     width: 100%;
 }
 
 .off {
     color: darkblue;
-    margin-top: 3%;
+    margin-top: 2.2%;
     margin-left: 7.5%;
 }
 
 .triangulo1 {
     color: darkblue;
-    margin-top: 2.3%;
+    margin-top: 1.5%;
     margin-left: 0.8%;
 }
 
 .triangulo2 {
     color: darkblue;
-    margin-top: 2.3%;
+    margin-top: 1.5%;
     margin-left: 2%;
 }
 
 .on {
     color: darkblue;
-    margin-top: 2.8%;
+    margin-top: 2.05%;
     margin-left: 1%;
 }
 
@@ -109,7 +109,7 @@ body {
 
 .pantallamargenizq {
     background-color: #404744;
-    height: 21.35em;
+    height: 22em;
     width: 3.1em;
     margin-left: 1.9em;
     border-top-left-radius: 0.7em;
@@ -124,10 +124,10 @@ body {
 
 .pantallamargendcha {
     background-color: #404744;
-    height: 21.35em;
+    height: 22em;
     width: 3.2em;
     border-top-right-radius: 0.7em;
-    border-bottom-right-radius: 2.5em;
+    border-bottom-right-radius: 2.3em;
     margin-left: -1em;
 }
 
@@ -154,17 +154,21 @@ body {
     background-color: #404744;
     height: 3em;
     width: 19.3em;
+    height: 2.2em;
+
+    
     
 }
 
 .logogameboy {
-    margin-top: em;
-    margin-left: -0.5em;
-    height: 1.5em;
+    margin-top: -0.4em;
+    margin-left: -0.3em;
+    height: 1em;
+    
 }
 
 .mediaizq {
-    background-color: orange;
+    background-color:
     height: 100%;
     width: 33.3%;
     display: flex;
@@ -287,20 +291,41 @@ body {
 }
 
 .nintendor {
-    margin-top: 1em;
+
+    margin-left: 0.85em;
+
 }
 
+.circulonintendo p {
+    display: flex;
+    border: blue solid 0.2em;
+    width: 5em;
+    height: 0.7em;
+    color: blue;
+    font-weight: bold;
+    box-sizing: content-box;
+    font-size: 1.6em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    padding: 0em;
+    box-shadow: -0.03em -0.03em 0 darkblue, 0.03em 0.03em 0 darkblue;
+}
 .botonesab {
     grid-column: 3 / 5;
     display: flex;
     justify-content: flex-end;
     padding-right: 16px;
     margin-top: 0.8em;
+    margin-left: 2.8em;
 }
 
 .button-b {
     margin-top: 25px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .button {
@@ -314,8 +339,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: centr;
-    margin-top: 6.5em;
-    margin-left: -0.5em;
+    margin-top: 3em;
+    margin-left: 5em;
 }
 
 .button-txt {
@@ -326,8 +351,8 @@ body {
 }
 
 .button-a {
-    margin-top: 4.8em;
-    margin-left: 1.2em;
+    margin-top: 20px;
+    margin-left: 1em;
 }
 
 .button:active {
@@ -344,8 +369,8 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 2.5em;
-    margin-top: 2em;
+    margin-left: -26em;
+    margin-top: 15em;
 }
 
 .bt-st-top {
@@ -363,7 +388,7 @@ body {
     width: 3em;
     height: 0.8em;
     border-radius: 3em/2em;
-    border: outset rgb(180, 108, 31);
+    border: outset gray;
     display: flex;
     align-items: center;
 }
@@ -399,6 +424,52 @@ body {
     margin-top: 4.23em;
     font-size:1.11em;
     font-weight: bold;
+}
+
+.speaker {
+    margin-left: 4em;
+    margin-top: 2em;
+    width: 1em;
+    height: 6.5em;
+    transform: skewY(-40deg);
+}
+
+.speaker-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.speaker-dots {
+    transform: skewY(30deg);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 2px inset black;
+}
+
+.dot1 {
+    background-color: black;
+}
+
+.dot2 {
+    background-color: darkblue;
+}
+
+.dot-n {
+    background-color: transparent;
+    border: none;
+}
+
+.dotlight1 {
+background-color: darkblue;
+border: 1px inset darkblue;
+}
+
+.dotlight2 {
+background-color: darkblue;
 }
 
 

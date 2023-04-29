@@ -289,3 +289,46 @@ body {
 .nintendor {
     margin-top: 1em;
 }
+
+.botonesab {
+    grid-column: 3 / 5;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+}
+
+.button-b {
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.button {
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(121, 121, 121), rgb(65, 65, 65));
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 50%;
+    margin: 9px;
+    border: outset 2px rgb(107, 71, 44);
+    display: flex;
+    justify-content: center;
+    align-items: centr;
+    margin-top: 6.5em;
+    margin-left: -0.5em;
+}
+
+.button-txt {
+    margin-top: 3em;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: crimson;
+}
+
+.button-a {
+    margin-top: 4.8em;
+    margin-left: 1.2em;
+}
+
+.button:active {
+    background: linear-gradient(to right, rgb(91, 91, 91), rgb(52, 52, 52));
+}

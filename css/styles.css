@@ -32,46 +32,43 @@ body {
 }
 
 .partearriba {
-    background-color:
     height: 44.5%;
     width: 100%;
 
 }
 
 .partemedia {
-    background-color: ;
     height: 30%;
     width: 100%;
     display: flex;
 
 }
 
-.partebaja {
-    background-color: 
+.partebaja { 
     height: 20%;
     width: 100%;
 }
 
 .off {
-    color: darkblue;
+    color: blue;
     margin-top: 2.2%;
     margin-left: 7.5%;
 }
 
 .triangulo1 {
-    color: darkblue;
+    color: blue;
     margin-top: 1.5%;
     margin-left: 0.8%;
 }
 
 .triangulo2 {
-    color: darkblue;
+    color: blue;
     margin-top: 1.5%;
     margin-left: 2%;
 }
 
 .on {
-    color: darkblue;
+    color: blue;
     margin-top: 2.05%;
     margin-left: 1%;
 }
@@ -109,7 +106,7 @@ body {
 
 .pantallamargenizq {
     background-color: #404744;
-    height: 22em;
+    height: 21.35em;
     width: 3.1em;
     margin-left: 1.9em;
     border-top-left-radius: 0.7em;
@@ -124,7 +121,7 @@ body {
 
 .pantallamargendcha {
     background-color: #404744;
-    height: 22em;
+    height: 21.35em;
     width: 3.2em;
     border-top-right-radius: 0.7em;
     border-bottom-right-radius: 2.3em;
@@ -134,7 +131,6 @@ body {
 .pantallamedio {
     display: flex;
     flex-direction: column;
-    align-items:;
 }
 
 .margenpantallatop {
@@ -168,7 +164,6 @@ body {
 }
 
 .mediaizq {
-    background-color:
     height: 100%;
     width: 33.3%;
     display: flex;

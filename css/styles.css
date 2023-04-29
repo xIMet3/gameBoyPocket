@@ -26,16 +26,24 @@ body {
     width: 100%;
 }
 
+.pantalla0 {
+    display: flex;
+    justify-content: center;
+}
+
 .partearriba {
     background-color: red;
     height: 44.5%;
     width: 100%;
+
 }
 
 .partemedia {
     background-color: yellow;
     height: 30%;
     width: 100%;
+    display: flex;
+
 }
 
 .partebaja {
@@ -70,22 +78,20 @@ body {
 
 .partearriba {
     display: flex;
-    justify-content: cnter;
-    align-items: cent
+    
+    
 }
 
 .pantalla1 {
     display: flex;
-    flex-direction:;
+    flex-direction:row;
 }
 
-.pantallamargenizq {
-    background-color: black;
-    height: 21.35em;
-    width: 3em;
-    margin-left: 1.5em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
+
+.icononintendo {
+    background-color: #b0c095;
+    height: 100%;
+    width: 20%;
 }
 
 .led {
@@ -97,31 +103,189 @@ body {
 .pantalla2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 
-.pantallamargentop {
-    background-color: black;
-    height: 2em;
+.pantallamargenizq {
+    background-color: #404744;
+    height: 21.35em;
+    width: 3.1em;
+    margin-left: 1.9em;
+    border-top-left-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+}
+
+.pantallamedio {
+    background-color: white;
+    height: 100%;
     width: 20em;
 }
 
-.pantallamargenbot {
-    background-color: black;
+.pantallamargendcha {
+    background-color: #404744;
+    height: 21.35em;
+    width: 3.2em;
+    border-top-right-radius: 0.7em;
+    border-bottom-right-radius: 2.5em;
+    margin-left: -1em;
+}
+
+.pantallamedio {
+    display: flex;
+    flex-direction: column;
+    align-items:;
+}
+
+.margenpantallatop {
+    background-color: #404744;
     height: 2.5em;
-    width: 20em;
-    margin-top: 17em;
+    width: 19.3em;
 }
 
-.pantalla3 {
+.pantallamedio2 {
+    background-color: #b0c095;
+    height: 80%;
+    width: 19.3em;
+    
+}
+
+.margenpantallabot {
+    background-color: #404744;
+    height: 3em;
+    width: 19.3em;
+    
+}
+
+.logogameboy {
+    margin-top: em;
+    margin-left: -0.5em;
+    height: 1.5em;
+}
+
+.mediaizq {
+    background-color: orange;
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+}
+
+.cross {
+        width: 7em;
+        height: 7em;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: 2.3em;
+        margin-top: ;
+    }
+
+.cross1 {
+        background-color: none;
+    }
+
+.cross-central {
+    background: linear-gradient(to right, grey, rgb(77, 76, 76));
+    }
+
+.cross-top {
+    cursor: pointer;
+    background: linear-gradient(to right, grey, rgb(77, 76, 76));
+    border-top: outset 2px rgb(60, 60, 60);
+    border-left: outset 2px rgb(82, 82, 82);
+    border-right: outset 2px rgb(60, 60, 60);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.cross-bottom {
+    cursor: pointer;
+    background: linear-gradient(to right, grey, rgb(77, 76, 76));
+    border-bottom: outset 2px rgb(60, 60, 60);
+    border-left: outset 2px rgb(72, 71, 71);
+    border-right: outset 2px rgb(60, 60, 60);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.cross-right {
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(77, 76, 76), rgb(116, 116, 116));
+    border-bottom: outset 2px rgb(60, 60, 60);
+    border-top: outset 2px rgb(60, 60, 60);
+    border-right: outset 2px rgb(33, 33, 33);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.cross-right:active{
+    background: linear-gradient(to right, rgb(77, 76, 76), rgb(50, 50, 50));
+}
+
+.cross-left:active{
+    background: linear-gradient(to right, rgb(235, 235, 235), grey);
+}
+
+.cross-top:active{
+    background: linear-gradient(to top, rgb(109, 109, 109), rgb(198, 198, 198));
+}
+
+.cross-bottom:active{
+    background: linear-gradient(to bottom, rgb(109, 109, 109), rgb(41, 41, 41));
+}
+
+.cross-left {
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(178, 178, 178), grey);
+    border-bottom: outset 2px rgb(60, 60, 60);
+    border-top: outset 2px rgb(60, 60, 60);
+    border-left: outset 2px rgb(81, 81, 81);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 12px solid rgb(67, 67, 67);
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.cross-triangles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangle-top {
+    transform: rotate(-90deg);
+}
+
+.triangle-left {
+    transform: rotate(180deg);
+
+}
+
+.triangle-bottom {
+    transform: rotate(90deg);
+}
+
+.circle-cross {
+    background-color:rgb(67, 67, 67);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: inset 2px rgb(132, 132, 132);
+}
+
+.partemediadcha {
     display: flex;
     flex-direction: row;
 }
 
-.pantallamargendcha {
-    background-color: black;
-    height: 21.35em;
-    width: 3em;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
+.nintendor {
+    
 }

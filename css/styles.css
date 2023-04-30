@@ -54,6 +54,7 @@ body {
 .partearriba {
   height: 44.5%;
   width: 100%;
+  margin-top: 0.7em;
 }
 
 .partemedia {
@@ -106,9 +107,35 @@ body {
   width: 20%;
 }
 
-.led {
-  margin-top: 160%;
-  margin-left: 9%;
+.pantallamargenizq {
+  background-color: #404744;
+  height: 21.35em;
+  width: 3.2em;
+  margin-left: 1.65em;
+  border-top-left-radius: 0.7em;
+  border-bottom-left-radius: 0.7em;
+}
+
+.led1 {
+  background-color: rgb(125, 33, 33);
+  height: 0.8em;
+  width: 0.8em;
+  border-radius: 50%;
+  margin-top: 5em;
+  margin-left: 10%;
+}
+
+.power {
+  margin-top: -0.91em;
+  margin-left: 1.4em;
+}
+
+.power1 {
+  color: grey;
+  font-size: 0.65em;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 0.55em;
 }
 
 .pantalla2 {
@@ -117,14 +144,6 @@ body {
   align-items: center;
 }
 
-.pantallamargenizq {
-  background-color: #404744;
-  height: 21.35em;
-  width: 3.2em;
-  margin-left: 1.75em;
-  border-top-left-radius: 0.7em;
-  border-bottom-left-radius: 0.7em;
-}
 
 .pantallamedio {
   background-color: white;
@@ -135,7 +154,7 @@ body {
 .pantallamargendcha {
   background-color: #404744;
   height: 21.35em;
-  width: 3em;
+  width: 3.4em;
   border-top-right-radius: 1.5em;
   border-bottom-right-radius: 2.3em;
   margin-left: -1em;
@@ -293,6 +312,8 @@ body {
 
 .nintendor {
   margin-left: 0.85em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
 }
 
 .circulonintendo p {
@@ -310,7 +331,7 @@ body {
   border-top-right-radius: 2em;
   align-items: center;
   justify-content: center;
-  padding: 0em;
+  padding: 0.1em;
   box-shadow: -0.03em -0.03em 0 darkblue, 0.03em 0.03em 0 darkblue;
 }
 .botonesab {
@@ -318,7 +339,7 @@ body {
   display: flex;
   justify-content: flex-end;
   padding-right: 16px;
-  margin-top: 0.8em;
+  margin-top: -1em;
   margin-left: 2.8em;
 }
 

@@ -15,7 +15,7 @@ body {
 .fondogengar {
   position: absolute;
   z-index: 2;
-  margin-left: -70em;
+  margin-left: -69.5em;
   margin-top: -2em;
 }
 
@@ -215,6 +215,7 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
   margin-left: 2.3em;
   margin-top: 2em;
+  
 }
 
 .cross1 {
@@ -356,6 +357,7 @@ body {
 .button-b {
   margin-top: 25px;
   margin-right: 10px;
+  color: ;
 }
 
 .button {

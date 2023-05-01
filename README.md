@@ -8,12 +8,12 @@
 # <span style= "color:#ff0000"> Contenido:
 <br>
 
-- [Descripción del proyecto 📋](#Descripción-del-proyecto)
-- [Acerca de 🎮](#Acerca)
-- [Desarrollo 🖥️](#Desarrollo)
-- [Estado del proyecto 🚧](#Estado)
-- [Repositorio GitHub 💾](#Repositorio)
-- [Licencia y Copyright 📜](#Licencia)
+- ### [Descripción del proyecto 📋](#Descripción-del-proyecto)
+- ### [Acerca de 🎮](#Acerca)
+- ### [Desarrollo 🖥️](#Desarrollo)
+- ### [Estado del proyecto 🚧](#Estado)
+- ### [Repositorio GitHub 💾](#Repositorio)
+- ### [Licencia y Copyright 📜](#Licencia)
 
 <br><br><br><br>
 
@@ -81,4 +81,3 @@
 #### <span style="font-family:Aria-lNarrow">La imagen de Pokemon pertenecen a The Pokémon Company.
 
 ![copiright](./img/copyright.jpg)
-

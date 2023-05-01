@@ -8,7 +8,7 @@
 - [Acerca de 🎮](#Acerca-de:)
 - [Desarrollo 🖥️](#Desarrollo)
 - [Estado del proyecto 🚧](#Estado-del-proyecto)
-- [Repositorio GitHub](#Repositorio-GitHub)
+- [Repositorio GitHub 💾](#Repositorio-GitHub)
 - [Licencia y Copyright 📜](#Licencia)
 
 

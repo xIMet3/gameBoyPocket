@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+.off, .triangulo1, .triangulo2, .on {
+  color: blue;
+} 
+
 .fondo {
   position: relative;
   z-index: 1;
@@ -69,25 +73,21 @@ body {
 }
 
 .off {
-  color: blue;
   margin-top: 2.2%;
   margin-left: 7.5%;
 }
 
 .triangulo1 {
-  color: blue;
   margin-top: 1.5%;
   margin-left: 0.8%;
 }
 
 .triangulo2 {
-  color: blue;
   margin-top: 1.5%;
   margin-left: 2%;
 }
 
 .on {
-  color: blue;
   margin-top: 2.05%;
   margin-left: 1%;
 }
